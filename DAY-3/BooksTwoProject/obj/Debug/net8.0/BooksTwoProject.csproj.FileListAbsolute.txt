@@ -1,0 +1,64 @@
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\appsettings.Development.json
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\appsettings.json
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\BooksTwoProject.exe
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\BooksTwoProject.deps.json
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\BooksTwoProject.runtimeconfig.json
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\BooksTwoProject.dll
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\BooksTwoProject.pdb
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.csproj.AssemblyReference.cache
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.AssemblyInfoInputs.cache
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.AssemblyInfo.cs
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.csproj.CoreCompileInputs.cache
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.MvcApplicationPartsAssemblyInfo.cs
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.MvcApplicationPartsAssemblyInfo.cache
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\staticwebassets\msbuild.BooksTwoProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\staticwebassets\msbuild.build.BooksTwoProject.props
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BooksTwoProject.props
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BooksTwoProject.props
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\scopedcss\bundle\BooksTwoProject.styles.css
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwo.7246CADC.Up2Date
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.dll
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\refint\BooksTwoProject.dll
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.pdb
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.genruntimeconfig.cache
+D:\.NET DOWNLOADER FOLDER\BooksTwoProject\BooksTwoProject\obj\Debug\net8.0\ref\BooksTwoProject.dll
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\appsettings.Development.json
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\appsettings.json
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\BooksTwoProject.exe
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\BooksTwoProject.deps.json
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\BooksTwoProject.runtimeconfig.json
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\BooksTwoProject.dll
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\BooksTwoProject.pdb
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.csproj.AssemblyReference.cache
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.AssemblyInfoInputs.cache
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.AssemblyInfo.cs
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.csproj.CoreCompileInputs.cache
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.MvcApplicationPartsAssemblyInfo.cs
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.MvcApplicationPartsAssemblyInfo.cache
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\staticwebassets\msbuild.BooksTwoProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\staticwebassets\msbuild.build.BooksTwoProject.props
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BooksTwoProject.props
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BooksTwoProject.props
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\scopedcss\bundle\BooksTwoProject.styles.css
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwo.7246CADC.Up2Date
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.dll
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\refint\BooksTwoProject.dll
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.pdb
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\BooksTwoProject.genruntimeconfig.cache
+D:\INTERNSHIP\TATVASOFT INTERNSHIP\DAY-3\BooksTwoProject\obj\Debug\net8.0\ref\BooksTwoProject.dll
