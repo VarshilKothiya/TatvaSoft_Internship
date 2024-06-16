@@ -22,7 +22,7 @@
   text-align: justify;
 }
 .container-fluid .content .info div{
-  /* margin-bottom: 15px; */
+  margin-bottom: 15px; 
 }
 
 .card-header{

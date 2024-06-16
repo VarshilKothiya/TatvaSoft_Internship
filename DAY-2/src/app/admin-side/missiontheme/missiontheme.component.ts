@@ -40,6 +40,11 @@ export class MissionthemeComponent implements OnInit {
     );
   }
  
+  OpenRemoveMissionThemeModal(id: any){
+    this.themeId = id
+    this.deleteThemeModal.show();
+  }
+
   CloseRemoveMissionThemeModal(){
     this.deleteThemeModal.hide();
   }

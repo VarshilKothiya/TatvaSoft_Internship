@@ -35,6 +35,7 @@
                  <td style="text-align: right;">{{item.startDate | date: 'dd/MM/yyyy'}}</td>
                  <td style="text-align: right;">{{item.endDate | date: 'dd/MM/yyyy'}}</td>
                  <td style="text-align: right;">
+                  <button class="btnedit" routerLink="../editMission/{{item.id}}"> <i class="fa fa-edit "></i> </button>
                    <button class="btndelete" (click)="OpenRemoveMissionModal(item.id)"> <i class="fa fa-trash-o"></i> </button>
                  </td>
                </tr>

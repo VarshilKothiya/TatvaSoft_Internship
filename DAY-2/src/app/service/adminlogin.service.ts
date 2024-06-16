@@ -7,8 +7,8 @@ import {JwtHelperService} from  '@auth0/angular-jwt';
   providedIn: 'root'
 })
 export class AdminloginService {
-  apiUrl:string='http://localhost:56577/api/Login';
-  imageUrl:string='http://localhost:56577';
+  apiUrl:string='http://localhost:5140/api/Login';
+  imageUrl:string='http://localhost:5140';
 
   currentUser : BehaviorSubject<any> = new BehaviorSubject(null);
   currentUserName : BehaviorSubject<any> = new BehaviorSubject(null);
@@ -34,10 +34,53 @@ export class AdminloginService {
   }
 
   loginUser(loginInfo:Array<string>){
+    /*
     return this.http.post(`${this.apiUrl}/LoginUser`,{
       EmailAddress : loginInfo[0],
-      Password : loginInfo[1]
+      Password : loginInfo[1],
     },{responseType:'json'});
+    */
+    const requestBody = {
+      EmailAddress: loginInfo[0],
+      Password: loginInfo[1],
+      Uid: '0',
+      user: 'user',
+      Message : 'Login Successfull',
+      LastName : 'Donohue',
+      UserType: 'user',
+      FirstName : 'Evan',
+      PhoneNumber : '1234567890',
+      UserFullName : 'Evan Donohue',
+      ConfirmPassword : '1234567890'
+      
+      /*
+      "Message": [
+            "The Message field is required."
+        ],
+        "LastName": [
+            "The LastName field is required."
+        ],
+        "UserType": [
+            "The UserType field is required."
+        ],
+        "FirstName": [
+            "The FirstName field is required."
+        ],
+        "PhoneNumber": [
+            "The PhoneNumber field is required."
+        ],
+        "UserFullName": [
+            "The UserFullName field is required."
+        ],
+        "ConfirmPassword": [
+            "The ConfirmPassword field is required."
+        ]
+      */
+
+    };
+  
+    // Send a POST request to the LoginUser endpoint with the request body
+    return this.http.post(`${this.apiUrl}/LoginUser`, requestBody, { responseType: 'json' });
   }
 
   ForgotPasswordEmailCheck(data:any){

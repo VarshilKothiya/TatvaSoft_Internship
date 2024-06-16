@@ -45,6 +45,7 @@ export class AddMissionComponent implements OnInit {
       countryId: [null, Validators.compose([Validators.required])],
       cityId: [null, Validators.compose([Validators.required])],
       missionTitle: [null, Validators.compose([Validators.required])],
+      missionType: [null, Validators.compose([Validators.required])],
       missionDescription: [null, Validators.compose([Validators.required])],
       startDate: [null, Validators.compose([Validators.required])],
       endDate: [null, Validators.compose([Validators.required])],
@@ -58,6 +59,7 @@ export class AddMissionComponent implements OnInit {
   get countryId() { return this.addMissionForm.get('countryId') as FormControl; }
   get cityId() { return this.addMissionForm.get('cityId') as FormControl; }
   get missionTitle() { return this.addMissionForm.get('missionTitle') as FormControl; }
+  get missionType() { return this.addMissionForm.get('missionType') as FormControl; }
   get missionDescription() { return this.addMissionForm.get('missionDescription') as FormControl; }
   get startDate() { return this.addMissionForm.get('startDate') as FormControl; }
   get endDate() { return this.addMissionForm.get('endDate') as FormControl; }
@@ -78,13 +80,20 @@ export class AddMissionComponent implements OnInit {
   }
 
   CountryList() {
-    this.service.CountryList().subscribe((data: any) => {
-      if (data.result == 1) {
-        this.countryList = data.data;
-      } else {
-        this.toast.error({ detail: "ERROR", summary: data.message, duration: 3000 });
+    this.service.CountryList().subscribe(
+      (data: any) => {
+        console.log('Country List Data:', data); // Log data received from the service
+        if (data.result === 1) {
+          this.countryList = data.data; // Assign countryList if result is successful
+        } else {
+          this.toast.error({ detail: "ERROR", summary: data.message, duration: 3000 });
+        }
+      },
+      error => {
+        console.error('Error fetching country list:', error); // Log any errors
+        this.toast.error({ detail: "ERROR", summary: "Failed to fetch country list", duration: 3000 });
       }
-    });
+    );
   }
 
   CityList(countryId: any) {

@@ -38,6 +38,7 @@ export class UpdateMissionComponent implements OnInit {
       this.editMissionForm = this.fb.group({ // Initialize editMissionForm here
           id: [''],
           missionTitle: ['', Validators.compose([Validators.required])],
+          missionType: ['', Validators.compose([Validators.required])],
           missionDescription: ['', Validators.compose([Validators.required])],
           countryId: ['', Validators.compose([Validators.required])],
           cityId: ['', Validators.compose([Validators.required])],
@@ -130,6 +131,7 @@ export class UpdateMissionComponent implements OnInit {
           this.editMissionForm = this.fb.group({
               id:[this.editData.id],
               missionTitle:[this.editData.missionTitle,Validators.compose([Validators.required])],
+              missionType:[this.editData.missionType,Validators.compose([Validators.required])],
               missionDescription:[this.editData.missionDescription,Validators.compose([Validators.required])],
               countryId:[this.editData.countryId,Validators.compose([Validators.required])],
               cityId:[this.editData.cityId,Validators.compose([Validators.required])],
@@ -138,7 +140,7 @@ export class UpdateMissionComponent implements OnInit {
               totalSheets:[this.editData.totalSheets,Validators.compose([Validators.required])],
               missionThemeId:[this.editData.missionThemeId,Validators.compose([Validators.required])],
               missionSkillId:[this.editData.missionSkillId.split(','),Validators.compose([Validators.required])],
-              missionImages:[''],              
+              missionImages:[''],
           });
           this.service.CityList(this.editData.countryId).subscribe((data:any)=>{
                 this.cityList = data.data;
@@ -156,6 +158,7 @@ export class UpdateMissionComponent implements OnInit {
   get countryId() { return this.editMissionForm.get('countryId') as FormControl; }
   get cityId() { return this.editMissionForm.get('cityId') as FormControl; }
   get missionTitle() { return this.editMissionForm.get('missionTitle') as FormControl; }
+  get missionType() { return this.editMissionForm.get('missionType') as FormControl; }
   get missionDescription() { return this.editMissionForm.get('missionDescription') as FormControl; }
   get startDate() { return this.editMissionForm.get('startDate') as FormControl; }
   get endDate() { return this.editMissionForm.get('endDate') as FormControl; }

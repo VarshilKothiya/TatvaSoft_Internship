@@ -5,7 +5,7 @@
       <div class="info">
         <div class="card">
             <div class="card-header">
-              Update Mission
+              Add Mission
             </div>
             <div class="card-body">
               <form [formGroup]="addMissionForm">
@@ -14,7 +14,8 @@
                     <div class="col-sm-6">
                         <label class="col-form-label">Country</label>
                         <select class="form-select" (change)="CityList($event)" formControlName="countryId">
-                          <option *ngFor="let item of countryList" value="{{item.value}}">  {{item.text}}</option>
+                          <option value="">Select Country</option>
+                          <option *ngFor="let item of countryList" value="{{item.id}}">  {{item.countryName}}</option>
                         </select>
                         <span class="text-danger" *ngIf="countryId.invalid && (countryId.touched || formValid)">
                           Please Select Country
@@ -24,35 +25,41 @@
                       <label class="col-form-label">City</label>
                       <select class="form-select" formControlName="cityId">
                         <option value="">Select City</option>
-                        <option *ngFor="let item of cityList" value="{{item.value}}">{{item.text}}</option>
+                        <option *ngFor="let item of cityList" value="{{item.id}}">{{item.cityName}}</option>
                       </select>
                       <span class="text-danger" *ngIf="cityId.invalid && (cityId.touched || formValid)">
                         Please Select City
                       </span>
                     </div>
                   </div>
-
-                 // <div class="row">
-                  <div class="col-sm-6">
-                    <label class="col-form-label">Mission Title</label>
-                    <input type="text" class="form-control" formControlName="missionTitle" placeholder="Enter mission title">
-                    <span class="text-danger" *ngIf="missionTitle.invalid && (missionTitle.touched || formValid)">
-                      Please Enter Mission Title
-                    </span>
-                  </div>
-                  <div class="col-sm-6">
-                    <label class="col-form-label">Mission Theme</label>
-                    <select class="form-select" formControlName="missionThemeId">
-                      <option *ngFor="let item of missionThemeList" value="{{item.value}}">{{item.text}}</option>
-                    </select>
-                    <span class="text-danger" *ngIf="missionThemeId.invalid && (missionThemeId.touched || formValid)">
-                      Please Select Mission Theme
-                    </span>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <label class="col-form-label">Mission Title</label>
+                      <input type="text" class="form-control" placeholder="Enter your Title" formControlName="missionTitle">
+                      <span class="text-danger" *ngIf="missionTitle.invalid && (missionTitle.touched || formValid)">
+                        Please Enter Mission Title
+                      </span>
                     </div>
-                </div>
-                  
-                  
-                   <div class="row">
+
+                    <div class="col-sm-6">
+                      <label class="col-form-label">Mission Type</label>
+                      <input type="text" class="form-control" placeholder="Enter your Type" formControlName="missionType">
+                      <span class="text-danger" *ngIf="missionType.invalid && (missionType.touched || formValid)">
+                        Please Enter Mission Type
+                      </span>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <label class="col-form-label">Mission Theme</label>
+                      <select class="form-select skills" formControlName="missionThemeId">
+                        <option *ngFor="let item of missionThemeList" value="{{item.id}}">{{item.themeName}}</option>
+                      </select>
+                      <span class="text-danger" *ngIf="missionThemeId.invalid && (missionThemeId.touched || formValid)">
+                        Please Select Mission Theme
+                      </span>
+                    </div>
+                  </div>
+                  <div class="row">
                     <div class="col-sm-6">
                       <label class="col-form-label">Mission Description</label>
                       <textarea class="form-control" row="3" placeholder="Enter your message" formControlName="missionDescription"></textarea>
@@ -60,15 +67,12 @@
                         Please Enter Mission Description
                       </span>
                     </div>
-
-                
-
                     <div class="col-sm-6">
-                      <label class="col-form-label">Total seats</label>
-                      <input type="number" class="form-control" placeholder="Enter total seets" formControlName="totalSheets">
+                      <label class="col-form-label">Total Sheets</label>
+                      <input type="number" class="form-control" placeholder="Enter total sheets" formControlName="totalSheets">
                     </div>
-                   </div>
-                   <div class="row">
+                  </div>
+                  <div class="row">
                     <div class="col-sm-6">
                         <label class="col-form-label">Start Date</label>
                         <input type="date" placeholder="Select Start Date" formControlName="startDate" class="form-control"
@@ -85,8 +89,8 @@
                             Please Select End Date
                         </span>
                     </div>
-                </div>
-                    <div class="row">
+                  </div>
+                  <div class="row">
                       <div class="col-sm-6">
                         <label class="col-form-label">Mission Images</label>
                         <div class="dropZone">
@@ -104,12 +108,15 @@
                       <div class="col-sm-6">
                         <label class="col-form-label">Mission Skills</label>
                         <select class="form-select skills" formControlName="missionSkillId" multiple="multiple">
-                          <option *ngFor="let item of missionSkillList" value="{{item.value}}">{{item.text}}</option>
+                          <option *ngFor="let item of missionSkillList" value="{{item.id}}">{{item.skillName}}</option>
                         </select>
                         <span class="text-danger" *ngIf="missionSkillId.invalid && (missionSkillId.touched || formValid)">
                           Please Select Mission SKill
                         </span>
                       </div>
+
+
+
                     </div>
                     <div class="row">
                       <div class="col-sm-1 pt-2" *ngFor="let items of imageListArray">

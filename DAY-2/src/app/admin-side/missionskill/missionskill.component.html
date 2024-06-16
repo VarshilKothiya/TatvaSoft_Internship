@@ -31,7 +31,10 @@
                  <td>{{item.skillName}}</td>
                  <td style="text-align: right;color:#14c506;" [ngStyle]="item.status == 'active' ? {'color': '#14c506'} : {'color': '#ff0000'}">{{item.status == 'active' ? 'Active' : 'In-Active'}}</td>
                  <td style="text-align: right;">
-
+                  <button class="btnedit" routerLink="../updateMissionSkill/{{item.id}}">
+                    <i class="fa fa-edit"></i>
+                  </button>
+                  <button class="btndelete" (click)="OpenRemoveSkillModal(item.id)"> <i class="fa fa-trash-o"></i> </button>
                  </td>
                </tr>
                <tr *ngIf="result.length === 0">
